@@ -1,0 +1,16 @@
+# Ignore Data
+data/raw/
+data/processed/
+*.csv
+*.pkl
+
+# Ignore Models & Logs
+models/
+logs/
+*.h5
+
+# Ignore System/Python files
+__pycache__/
+*.pyc
+.DS_Store
+.env

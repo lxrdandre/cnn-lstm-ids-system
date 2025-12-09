@@ -1,0 +1,21 @@
+# configs/config.yaml
+data:
+  raw_path: "data/raw/X-IIoTID_dataset.csv"
+  target_col: "class2"
+  test_size: 0.2
+  use_smote: true
+  artifacts_path: "data/processed/preprocessor.pkl"
+
+model:
+  cnn_filters: [32, 64, 128]
+  lstm_units: 128
+  dropout: 0.3
+  l2_reg: 0.001
+  learning_rate: 0.001
+
+training:
+  epochs: 100
+  batch_size: 2048  # Optimized for your H200! Adjust if necessary.
+  patience: 15
+  log_dir: "logs/"
+  model_save_path: "models/"
