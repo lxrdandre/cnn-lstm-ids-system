@@ -17,7 +17,7 @@ Preprocessing: All features are scaled to a [0, 1] range using MinMax Scaling, a
 
 Setup
 1. run pip install -r requirements.txt
-2. Prepare Data: Ensure your dataset (e.g., X-IIoTID_dataset.csv) is placed in data/raw/ or update the path in configs/config.yaml.
+2. Prepare Data: Create a parent folder data/raw/ and ensure your dataset (e.g., X-IIoTID_dataset.csv) is placed in data/raw/ or update the path in configs/config.yaml.
 3. run python train.py
 Output: Best model saved to models/ and preprocessor state saved to data/processed/.
 4. run python predict.py --csv data/raw/new_traffic.csv --model models/model_x.h5
