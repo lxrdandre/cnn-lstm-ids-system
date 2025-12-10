@@ -1,6 +1,6 @@
 IIoT IDS Deep Learning Pipeline
 This project implements a hybrid CNN-LSTM Deep Learning model for Intrusion Detection Systems (IDS) in Industrial IoT environments. It is a production-ready MLOps pipeline capable of training, evaluating, and running inference on new data.
-All results can be found in the "results" folder. The achieved accuracy is 100% due to the big and clean X-IIoTID dataset. 
+All results can be found in the "results" folder. The achieved accuracy is almost 100% due to the big and clean X-IIoTID dataset. 
 
 Architecture and Techniques
 
